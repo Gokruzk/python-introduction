@@ -1,11 +1,11 @@
 # Exceptions
 
-def run():
+def main():
     # print("Hello world) # ? syntax error
-    # handle_error_input()
+    handle_error_input()
     # while_handle_error_input()
     # print(f"x is {get_int()}")
-    print(f"x is {get_int_pass('Whats x? ') }")
+    # print(f"x is {get_int_pass('Whats x? ') }")
 
 
 def handle_error_input():
@@ -45,4 +45,5 @@ def get_int_pass(prompt):
             pass
 
 
-run()
+if __name__ == "__main__":
+    main()
